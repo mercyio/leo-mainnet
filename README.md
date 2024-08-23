@@ -38,23 +38,15 @@ Use the following command to run the mint transition function:
 ```bash
 leo run mint aleo129ka6zrvs25rc52qxt9n3299rdsmy4ecx2u9ewfu8a0s5w673v9sucj5km
 ```
-After running the program, Leo compiles your code and executes the transition function with the provided inputs.
+Replace aleo129ka6zrvs25rc52qxt9n3299rdsmy4ecx2u9ewfu8a0s5w673v9sucj5km with the Leo wallet address used for minting.
+
 The result of the execution is displayed in the terminal.
 
 Leo generated a file named main.aleo which contains the Aleo instructions corresponding to your Leo program.
-This file is essential as it holds the compiled version of your program, ready for deployment on the Aleo network.
 
-#Deployment Process:
-I copied the code from the main.aleo file.
-This code contains the compiled Aleo instructions required for deployment.
+Deployment: The compiled Aleo instructions from main.aleo were deployed to the Aleo network.
 
-I then navigated to the demo.leo.app/deploy platform.
-On this platform, I used the copied code to deploy my Leo program to the Aleo network.
-
-On the deployment platform, I followed the necessary steps to submit the deployment transaction.
-Once deployed, the network would have generated a unique transaction ID, confirming the successful deployment.
-
-TransactionId: 	at1xkhrcxcwh8a674gwk6ernx4c43wf2a77rm9twk97rfru5s3g8uysv5h4gu
+Deployment Transaction ID: at1xkhrcxcwh8a674gwk6ernx4c43wf2a77rm9twk97rfru5s3g8uysv5h4gu
 
 ## Token transfer (Third workshop )
 
@@ -68,20 +60,11 @@ After running the command, check the output in your terminal for any results or 
 The result of the execution is displayed in the terminal.
 
 Leo generated a file named main.aleo which contains the Aleo instructions corresponding to your Leo program.
-This file is essential as it holds the compiled version of your program, ready for deployment on the Aleo network.
 
-#Deployment Process:
-I copied the code from the main.aleo file.
-This code contains the compiled Aleo instructions required for deployment.
+Deployment: The compiled Aleo instructions from main.aleo were deployed to the Aleo network.
 
-I then navigated to the demo.leo.app/deploy platform.
-On this platform, I used the copied code to deploy my Leo program to the Aleo network.
+Deployment Transaction ID: at1nccf0xje0n7dltjf9lv3p3rjtjysz0qps0dfh6zvsrcvuz6dzc8qwmhmpz
 
-On the deployment platform, I followed the necessary steps to submit the deployment transaction.
-Once deployed, the network would have generated a unique transaction ID, confirming the successful deployment.
+##  Summary
 
-TransactionId: 	at1nccf0xje0n7dltjf9lv3p3rjtjysz0qps0dfh6zvsrcvuz6dzc8qwmhmpz
-
-<!-- 
-## Summary
-The 3 workshop ran and was deployed successfully with transactionId generated for each. -->
+The workshops demonstrate the process of developing, running, and deploying Leo programs on the Aleo network. Each workshop involved compiling the program into Aleo instructions, deploying it using the demo.leo.app platform, and recording the transaction ID for successful deployments.
