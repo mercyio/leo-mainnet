@@ -82,6 +82,6 @@ Once deployed, the network would have generated a unique transaction ID, confirm
 
 TransactionId: 	at1nccf0xje0n7dltjf9lv3p3rjtjysz0qps0dfh6zvsrcvuz6dzc8qwmhmpz
 
-
+<!-- 
 ## Summary
-The 3 workshop ran and was deployed successfully with transactionId generated for each.
+The 3 workshop ran and was deployed successfully with transactionId generated for each. -->
