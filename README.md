@@ -4,20 +4,22 @@
 
 Make sure you have Leo installed on your machine. If not, follow the installation instructions provided in the Leo documentation.
 
-Navigate to the directory where your Leo project is located.
+Navigate to the directory where the Leo project is located.
 
 run the Leo program using the command:
 ```bash
 leo run <main> <3u32 2u32>
 ```
-Here, 'main' represents the transition function name in the Leo program, and 3u32 2u32 are the input parameters for that function.
+Here, 'main' represents the transition function name in my Leo program, and 3u32 2u32 are the input parameters for that function.
 3u32 and 2u32 specify that the inputs are 32-bit unsigned integers with values 3 and 2.
 
-After running the program, Leo compiles your code and executes the transition function with the provided inputs.
+After running the program, Leo compiles the code and executes the transition function with the provided inputs.
 The result of the execution is displayed in the terminal.
 
-Leo generated a file named main.aleo which contains the Aleo instructions corresponding to your Leo program.
-This file is essential as it holds the compiled version of your program, ready for deployment on the Aleo network.
+Leo generated a file named main.aleo which contains the Aleo instructions corresponding to the Leo program.
+This file is essential as it holds the compiled version of the program, ready for deployment on the Aleo network.
+
+generated private key in .env needs to be change to that of my Leo wallet private key
 
 #Deployment Process:
 I copied the code from the main.aleo file.
@@ -42,7 +44,7 @@ Replace aleo129ka6zrvs25rc52qxt9n3299rdsmy4ecx2u9ewfu8a0s5w673v9sucj5km with the
 
 The result of the execution is displayed in the terminal.
 
-Leo generated a file named main.aleo which contains the Aleo instructions corresponding to your Leo program.
+Leo generated a file named main.aleo which contains the Aleo instructions corresponding to my Leo program.
 
 Deployment: The compiled Aleo instructions from main.aleo were deployed to the Aleo network.
 
@@ -59,7 +61,7 @@ You need two Leo wallet addresses: one for the owner and one for the receiver. R
 After running the command, check the output in your terminal for any results or messages related to the execution of the combine_hash_owner_receiver function.
 The result of the execution is displayed in the terminal.
 
-Leo generated a file named main.aleo which contains the Aleo instructions corresponding to your Leo program.
+Leo generated a file named main.aleo which contains the Aleo instructions corresponding to my Leo program.
 
 Deployment: The compiled Aleo instructions from main.aleo were deployed to the Aleo network.
 
@@ -68,3 +70,4 @@ Deployment Transaction ID: at1nccf0xje0n7dltjf9lv3p3rjtjysz0qps0dfh6zvsrcvuz6dzc
 ##  Summary
 
 The workshops demonstrate the process of developing, running, and deploying Leo programs on the Aleo network. Each workshop involved compiling the program into Aleo instructions, deploying it using the demo.leo.app platform, and recording the transaction ID for successful deployments.
+
