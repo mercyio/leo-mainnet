@@ -1,0 +1,14 @@
+# Ignore compiled output
+outputs/
+*.avm
+*.prover
+*.verifier
+
+# Ignore build artifacts
+build/
+
+# Ignore local environment files
+*.env
+
+# Ignore inputs folder
+inputs/
