@@ -10,7 +10,7 @@ run the Leo program using the command:
 ```bash
 leo run <main> <3u32 2u32>
 ```
-Here, <main> represents the transition function name in the Leo program, and 3u32 2u32 are the input parameters for that function.
+Here, 'main' represents the transition function name in the Leo program, and 3u32 2u32 are the input parameters for that function.
 3u32 and 2u32 specify that the inputs are 32-bit unsigned integers with values 3 and 2.
 
 After running the program, Leo compiles your code and executes the transition function with the provided inputs.
